@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mini Guide - Guatapará</string>
+    <string name="main_title">Guatapará Services</string>
+    <string name="category_label">Category:</string>
+    <string name="service_detail_title">Service Details</string>
+    <string name="phone_label">Phone:</string>
+    <string name="website_label">Website:</string>
+    <string name="location_label">Location:</string>
+    <string name="btn_call">Call</string>
+    <string name="btn_website">Access Website</string>
+    <string name="btn_map">View on Map</string>
+    <string name="btn_theme">Change Theme</string>
+    <string name="btn_language">Change Language</string>
+    <string name="toast_call_fail">Could not place the call.</string>
+    <string name="toast_website_fail">Browser not found.</string>
+    <string name="toast_map_fail">Map application not found.</string>
+
+    <string name="category_food">Food</string>
+    <string name="category_market">Market</string>
+    <string name="category_leisure">Leisure</string>
+    <string name="category_health">Health</string>
+    <string name="category_construction">Construction</string>
+    <string name="category_services">Services</string>
+
+    <string name="kidelicia_name">Kidelicia Snack Bar</string>
+    <string name="kidelicia_description">Generous portions and that real-deal snack that truly satisfies your hunger.</string>
+
+    <string name="rubinho_market_name">Rubinho Supermarket</string>
+    <string name="rubinho_market_description">A wide variety of products and a top-notch butcher shop.</string>
+
+    <string name="rubinho_arena_name">Rubinho Arena</string>
+    <string name="rubinho_arena_description">Soccer field rentals and a full bar for your event.</string>
+
+    <string name="health_center_name">Health Center (UBS)</string>
+    <string name="health_center_description">Medical assistance and appointment scheduling.</string>
+
+    <string name="sao_marcos_name">São Marcos Building Supplies</string>
+    <string name="sao_marcos_description">Materials for construction and renovation, from basic to finishing.</string>
+
+    <string name="post_office_name">Post Office</string>
+    <string name="post_office_description">Sending and receiving packages and mail.</string>
+</resources>
