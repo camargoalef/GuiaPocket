@@ -4,18 +4,31 @@
     <string name="main_title">Guatapará Services</string>
     <string name="category_label">Category:</string>
     <string name="service_detail_title">Service Details</string>
+    <string name="add_service_title">Add Service</string>
     <string name="phone_label">Phone:</string>
     <string name="website_label">Website:</string>
     <string name="location_label">Location:</string>
     <string name="btn_call">Call</string>
     <string name="btn_website">Access Website</string>
     <string name="btn_map">View on Map</string>
-    <string name="btn_theme">Change Theme</string>
-    <string name="btn_language">Change Language</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_select_photo">Select Photo</string>
     <string name="toast_call_fail">Could not place the call.</string>
     <string name="toast_website_fail">Browser not found.</string>
     <string name="toast_map_fail">Map application not found.</string>
+    <string name="form_validation_error">Name, category, and image are required</string>
 
+    <!-- Hints -->
+    <string name="hint_search_by_name">Search by name...</string>
+    <string name="hint_establishment_name">Establishment Name</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_website">Website (URL)</string>
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+
+    <!-- Service Categories -->
     <string name="category_food">Food</string>
     <string name="category_market">Market</string>
     <string name="category_leisure">Leisure</string>
@@ -23,21 +36,17 @@
     <string name="category_bakery">Pastry Shop</string>
     <string name="category_dental">Dental Clinic</string>
 
+    <!-- Names and Descriptions -->
     <string name="kidelicia_name">Kidelicia Snack Bar</string>
     <string name="kidelicia_description">Generous portions and that real-deal snack that truly satisfies your hunger.</string>
-
     <string name="rubinho_market_name">Rubinho Supermarket</string>
     <string name="rubinho_market_description">The largest supermarket in the city.</string>
-
     <string name="rubinho_arena_name">Rubinho Arena</string>
     <string name="rubinho_arena_description">Homemade food. In addition to good meals, the establishment has a multi-sport court.</string>
-
     <string name="princce_hotel_name">Princce Hotel</string>
     <string name="princce_hotel_description">The only hotel in the city, offering comfortable lodging and easy access to main local points.</string>
-
     <string name="quiosque_pastel_name">Pastel Kiosk</string>
     <string name="quiosque_pastel_description">A well-known spot for its variety of freshly made pastries.</string>
-
     <string name="danilo_selli_clinic_name">Dr. Danilo Selli Clinic</string>
     <string name="danilo_selli_clinic_description">Offers dental services in several specialties.</string>
 </resources>

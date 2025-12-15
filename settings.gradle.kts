@@ -1,13 +1,11 @@
+// ARQUIVO: settings.gradle.kts
+
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
+        // Estes você já tem
+        google()
         mavenCentral()
+        // ESTA LINHA VAI RESOLVER O ERRO 'Plugin not found'
         gradlePluginPortal()
     }
 }

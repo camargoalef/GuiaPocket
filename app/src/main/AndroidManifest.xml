@@ -10,7 +10,7 @@
         android:theme="@style/Theme.GuiaPocket">
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".ui.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +18,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.DetailActivity"
+        <activity
+            android:name=".ui.activity.DetailActivity"
             android:label="@string/service_detail_title"
-            android:parentActivityName=".activity.MainActivity"/>
+            android:parentActivityName=".ui.activity.MainActivity"/>
+
+        <activity
+            android:name=".ui.activity.CadastroActivity"
+            android:label="@string/add_service_title" />
 
     </application>
 </manifest>

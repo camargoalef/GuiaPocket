@@ -4,18 +4,31 @@
     <string name="main_title">Serviços em Guatapará</string>
     <string name="category_label">Categoria:</string>
     <string name="service_detail_title">Detalhes do Serviço</string>
+    <string name="add_service_title">Cadastrar Serviço</string>
     <string name="phone_label">Telefone:</string>
     <string name="website_label">Site:</string>
     <string name="location_label">Localização:</string>
     <string name="btn_call">Ligar</string>
     <string name="btn_website">Acessar Site</string>
     <string name="btn_map">Ver no Mapa</string>
-    <string name="btn_theme">Mudar Tema</string>
-    <string name="btn_language">Trocar Idioma</string>
+    <string name="btn_save">Salvar</string>
+    <string name="btn_select_photo">Selecionar Foto</string>
     <string name="toast_call_fail">Não foi possível realizar a ligação.</string>
     <string name="toast_website_fail">Navegador não encontrado.</string>
     <string name="toast_map_fail">Aplicativo de mapa não encontrado.</string>
+    <string name="form_validation_error">Nome, categoria e imagem são obrigatórios</string>
 
+    <!-- Hints -->
+    <string name="hint_search_by_name">Buscar por nome...</string>
+    <string name="hint_establishment_name">Nome do Estabelecimento</string>
+    <string name="hint_category">Categoria</string>
+    <string name="hint_description">Descrição</string>
+    <string name="hint_phone">Telefone</string>
+    <string name="hint_website">Website (URL)</string>
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+
+    <!-- Categorias de Serviço -->
     <string name="category_food">Alimentação</string>
     <string name="category_market">Mercado</string>
     <string name="category_leisure">Lazer</string>
@@ -23,21 +36,17 @@
     <string name="category_bakery">Pastelaria</string>
     <string name="category_dental">Clínica Odontológica</string>
 
+    <!-- Nomes e Descrições -->
     <string name="kidelicia_name">Lanchonete Kidelicia</string>
     <string name="kidelicia_description">Porções caprichadas e aquele podrão que mata a fome de verdade.</string>
-
     <string name="rubinho_market_name">Supermercado Rubinho</string>
     <string name="rubinho_market_description">O maior supermercado da cidade.</string>
-
     <string name="rubinho_arena_name">Arena Rubinho</string>
     <string name="rubinho_arena_description">Comida caseira. Além de boas refeições, o estabelecimento conta com uma quadra poliesportiva.</string>
-
     <string name="princce_hotel_name">Princce Hotel</string>
     <string name="princce_hotel_description">Único hotel da cidade, oferece hospedagem confortável e fácil acesso aos principais pontos locais.</string>
-
     <string name="quiosque_pastel_name">Quiosque do Pastel</string>
     <string name="quiosque_pastel_description">Ponto conhecido pelos pastéis variados e preparados na hora.</string>
-
     <string name="danilo_selli_clinic_name">Clínica Dr. Danilo Selli</string>
     <string name="danilo_selli_clinic_description">Oferece atendimentos em diversas especialidades no ramo odontológico.</string>
 </resources>

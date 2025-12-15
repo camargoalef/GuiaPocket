@@ -1,93 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:background="?android:attr/colorBackground"
-    tools:context=".activity.DetailActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/service_detail_title"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="?android:attr/textColorPrimary"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="20dp"/>
+    tools:context=".ui.activity.DetailActivity">
 
     <ImageView
-        android:id="@+id/img_detail_photo"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:id="@+id/iv_detail_image"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
         android:scaleType="centerCrop"
-        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tv_detail_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_detail_image"
+        tools:text="Nome do Serviço" />
+
+    <TextView
+        android:id="@+id/tv_detail_category"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@id/tv_detail_name"
+        app:layout_constraintStart_toStartOf="@id/tv_detail_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_detail_name"
+        tools:text="Categoria" />
+
+    <TextView
+        android:id="@+id/tv_detail_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/tv_detail_name"
+        app:layout_constraintStart_toStartOf="@id/tv_detail_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_detail_category"
+        tools:text="Descrição detalhada do serviço..." />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:src="@drawable/ic_launcher_background"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="12dp"
-        android:background="?attr/colorSurface"
-        android:elevation="4dp"
-        android:layout_marginBottom="20dp">
-
-        <TextView
-            android:id="@+id/tv_detail_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:textColor="?attr/colorPrimary"
-            tools:text="Nome do Serviço"/>
-
-        <TextView
-            android:id="@+id/tv_detail_category"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="?android:attr/textColorSecondary"
-            tools:text="Categoria: Alimentação"/>
-
-        <TextView
-            android:id="@+id/tv_detail_description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:textSize="16sp"
-            android:textColor="?android:attr/textColorPrimary"
-            tools:text="Descrição detalhada do serviço."/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/tv_detail_name"
+        app:layout_constraintStart_toStartOf="@id/tv_detail_name">
 
         <Button
             android:id="@+id/btn_call"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_call"
-            android:layout_marginBottom="8dp"/>
+            android:text="@string/btn_call" />
 
         <Button
             android:id="@+id/btn_website"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_website"
-            android:layout_marginBottom="8dp"/>
+            android:text="@string/btn_website" />
 
         <Button
             android:id="@+id/btn_map"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_map"/>
+            android:text="@string/btn_map" />
     </LinearLayout>
-</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
