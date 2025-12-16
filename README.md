@@ -22,6 +22,7 @@ A **Versão 2.0** (entrega atual) atende a novas demandas, focando em **performa
 
 
  **Vídeo aprofundado de 5 minutos falando inglês sobre meus códigos**
+ 
  https://youtu.be/1xEMi1WPXbo
 
 
@@ -49,6 +50,3 @@ OBS: sei que era pra ser um video rápido de até 30 segundos igual da parte 1, 
 | Português | Inglês |
 
 | <img width="450" alt="pt" src="https://github.com/user-attachments/assets/b1d542e2-a988-4c3d-a5d5-c0d8d31767ac" /> | <img width="450" alt="en" src="https://github.com/user-attachments/assets/c75b0c26-0597-4484-b412-cb2ebfb9d6b4" /> |
-
-*   **Vídeo de Demonstração (v1.0)**
-    https://youtube.com/shorts/zRLq5sCJkOA?feature=share
