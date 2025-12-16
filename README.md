@@ -21,6 +21,10 @@ A **Versão 2.0** (entrega atual) atende a novas demandas, focando em **performa
 *   **Estrutura de Código Profissional:** O projeto foi reorganizado em pacotes (`data`, `ui`, `model`, etc.) e todos os layouts foram refatorados para usar `ConstraintLayout`, seguindo as melhores práticas do Android.
 
 
+ **Vídeo aprofundado de 5 minutos falando inglês sobre meus códigos**
+ https://youtu.be/1xEMi1WPXbo
+
+
 **prints da parte de cadastrar novos estabelecimentos diretamente pelo app**
 OBS: sei que era pra ser um video rápido de até 30 segundos igual da parte 1, mas assim q eu começo a gravar o emulador do meu app trava no meu notebook.
 <img width="1080" height="2400" alt="Screenshot_20251215_190208" src="https://github.com/user-attachments/assets/9a6e5ac5-b12e-410f-83b2-302040291374" />
